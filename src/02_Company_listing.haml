@@ -1,0 +1,34 @@
+@@include('./partials/head/_head.html')
+  %body
+    @@include('./partials/header/_header__auth_wide.html')
+    .container-fluid.__size_full_width
+      .sidebar-content-wrapper
+        .sidebar-left
+          %ul.sidebar-nav
+            %li.sidebar-nav__item.__active
+              %a.sidebar-nav__link{href: "#"}
+                Companies
+        .content-wrapper
+          .row
+            .col-md-12
+              .table-widget__hd
+                %h1.table-widget__txt Companies
+                .table-widget__actions
+                  %button.btn.btn-primary
+                    Add Company
+                  %input.input-control.__table_filter{type: "text", placeholder: "Search"}
+                  %button.btn.btn-sm.btn-outline
+                    %i.icon.icon__search
+              .box-panel.box-panel_tabular
+                %table.table
+                  %thead
+                    @@include('./partials/data-table/_data-table_row_hd.html')
+                  %tbody
+                    @@include('./partials/data-table/_data-table_row.html')
+                    @@include('./partials/data-table/_data-table_row.html')
+                    @@include('./partials/data-table/_data-table_row.html')
+                    @@include('./partials/data-table/_data-table_row.html')
+                    @@include('./partials/data-table/_data-table_row.html')
+                    @@include('./partials/data-table/_data-table_row.html')
+              @@include('./partials/paginator/_paginator.html')
+    @@include('./partials/footer/_footer.html')

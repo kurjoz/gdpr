@@ -1,0 +1,21 @@
+*.iml
+
+
+### Node template
+# Logs
+logs
+*.log
+
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
+node_modules
+.publish
+
+
+# Project folders:
+app/**
+.publish
+
+# Project files:
+src/.DS_Store
+src/assets/stylesheets/includes/_generated-imagehelper.scss

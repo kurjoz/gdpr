@@ -1,0 +1,38 @@
+@@include('./partials/head/_head.html')
+  %body
+    @@include('./partials/header/_header__login.html')
+    .container
+      .sidebar-content-wrapper
+        .sidebar-left
+
+        .content-wrapper
+          .row
+            .col-lg-12.col-md-12
+              .box-panel
+                %section.guideline-section
+                        %h2 Pages. Part 1
+                        .row
+                          .col-md-6
+                            %ul.sitemap
+                              %li.sitemap__item
+                                %a.sitemap__link{href: "02_Company_empty.html"}
+                                  01. Companies. List. Empty
+                              %li.sitemap__item
+                                %a.sitemap__link{href: "02_Company_listing.html"}
+                                  02. Companies. List.
+                          .col-md-6
+                            %ul.sitemap
+                              %li.sitemap__item
+                                %a.sitemap__link{href: "02_Company_add.html"}
+                                  03. Create Company. Step 1. Company details
+                              %li.sitemap__item
+                                %a.sitemap__link{href: "02_Company_add_user.html"}
+                                  04. Create Company. Step 2. Company user
+                              %li.sitemap__item
+                                %a.sitemap__link{href: "02_Company_modify.html"}
+                                  05. Modify Company. Company information
+                              %li.sitemap__item
+                                %a.sitemap__link{href: "02_Company_modify_user.html"}
+                                  06. Modify Company. Modify Users
+  @@include('./partials/footer/_footer.html')
+    @@include('./partials/footer/_footer.html')

@@ -1,0 +1,22 @@
+.fields-grp {
+  margin-bottom: 32px;
+  .fields-grp__hd {
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    display: flex;
+    border-bottom: 1px solid $grey-dimmed;
+    .fields-grp__ttl {
+      flex: 1;
+    }
+    .fields-grp__actions {
+      .btn-ico {
+        margin-left: 4px;
+        border-radius: 50%;
+      }
+    }
+
+  }
+  .fields-grp__body {
+
+  }
+}

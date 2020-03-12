@@ -1,0 +1,104 @@
+.icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+
+  &.icon__alert {
+    background-image: image-url('icon-alert.svg');
+  }
+  &.icon__cog {
+    background-image: image-url('icon-cog.svg');
+  }
+  &.icon__service-stripe {
+    background-image: image-url('icon-service-stripe.svg');
+  }
+  &.icon__service-paypal {
+    background-image: image-url('icon-service-paypal.svg');
+  }
+  &.icon__doc-csv {
+    background-image: image-url('icon-doc-csv.svg');
+  }
+  &.icon__doc-generic {
+    background-image: image-url('icon-doc-generic.svg');
+  }
+  &.icon__doc-download {
+    background-image: image-url('icon-doc-download.svg');
+  }
+  &.icon__bin-light {
+    background-image: image-url('icon-bin-light.svg');
+  }
+  &.icon__modify_rec {
+    background-image: image-url('icon-edit.svg');
+  }
+  &.icon__acknowledge {
+    background-image: image-url('icon-check.svg');
+  }
+  &.icon__ignore {
+    background-image: image-url('icon-ignore.svg');
+  }
+  &.icon__bin_sm {
+    background-image: image-url('icon-bin-sm.svg');
+  }
+  &.icon__arrow_l {
+    background-image: image-url('icon-arrow-l.svg');
+  }
+  &.icon__arrow_r {
+    background-image: image-url('icon-arrow-r.svg');
+  }
+  &.icon__search {
+    background-image: image-url('icon-search.svg');
+  }
+///
+  &.icon__add {
+    background-image: image-url('icon-add-light.svg');
+  }
+  &.icon__remove {
+    background-image: image-url('icon-cross-light.svg');
+  }
+  &.icon__back {
+    background-image: image-url('icon-chevron-left.svg');
+  }
+
+  // icons. XS
+  &.__icon_xs {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+  }
+
+
+}
+//Context:
+.btn {
+  &.__active,
+  &:hover {
+    .icon__modify_rec {
+      background-image: image-url('icon-edit-active.svg');
+    }
+    .icon__acknowledge {
+      background-image: image-url('icon-check-active.svg');
+    }
+    .icon__ignore {
+      background-image: image-url('icon-ignore-active.svg');
+    }
+    .icon__bin_sm {
+      background-image: image-url('icon-bin-sm-active.svg');
+    }
+  }
+  &.disabled:hover,
+  &:disabled:hover {
+    .icon__modify_rec {
+      background-image: image-url('icon-edit.svg');
+    }
+    .icon__acknowledge {
+      background-image: image-url('icon-check.svg');
+    }
+    .icon__ignore {
+      background-image: image-url('icon-ignore.svg');
+    }
+    .icon__bin_sm {
+      background-image: image-url('icon-bin-sm.svg');
+    }
+  }
+}

@@ -1,0 +1,93 @@
+.sitemap {
+  margin: 0 0 20px;
+  padding: 0;
+  list-style-type: none;
+}
+.sitemap__item {
+  margin: 0 0 14px;
+}
+.sitemap__link {
+  font-weight: normal;
+}
+
+
+//Color Thumbs;
+
+.color-thumb {
+  padding: 16px;
+  margin-bottom: 16px;
+  background-color: $white;
+  @include box-shadow();
+}
+
+.color-thumb__prev {
+  margin: 0 0 8px;
+  width: 48px;
+  height: 48px;
+  background-color: $primary;
+  border-radius: 4px;
+  float: left;
+}
+.color-thumb__name {
+  margin-left: 56px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.color-thumb__color {
+  margin-left: 56px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $grey;
+  opacity: .85;
+}
+.color-thumb__desc {
+  clear: both;
+  font-size: 14px;
+}
+
+//Color Variation examples:
+.__color-thumb-primary .color-thumb__prev {
+  background-color: $primary;
+}
+.__color-thumb-primary-light .color-thumb__prev {
+  background-color: $green-lighter;
+}
+.__color-thumb-error .color-thumb__prev {
+  background-color: $red;
+}
+.__color-thumb-black .color-thumb__prev {
+  background-color: $black;
+}
+.__color-thumb-grey .color-thumb__prev {
+  background-color: $grey;
+}
+.__color-thumb-grey-light .color-thumb__prev {
+  background-color: $grey-ultra-light;
+}
+.__color-thumb-white .color-thumb__prev {
+  background-color: $white;
+}
+
+.toast.__toast-showcase {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+
+.snippet {}
+.code-lbl {}
+.code-snippet {
+  display: block;
+  border-radius: 4px;
+  background-color: $grey-ultra-light;
+  padding: 24px;
+  line-height: 24px;
+  color: $grey-dark;
+    .code-snippet__inj {
+      color: $green;
+    }
+}
+
+.guideline-section__elmnts {
+  margin-bottom: 16px;
+}

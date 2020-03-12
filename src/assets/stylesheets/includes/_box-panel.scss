@@ -1,0 +1,20 @@
+.box-panel {
+  margin: 0 0 24px 0;
+  padding: 16px;
+  background-color: $white;
+  border-radius: 4px;
+  //box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
+  @include box-shadow();
+}
+
+.box-panel__message_empty {
+  padding: 80px 0;
+  text-align: center;
+  font-size: 12px;
+  color: $grey-basic;
+}
+
+.box-panel.box-panel_tabular {
+  padding-right: 0;
+  padding-left: 0
+}
