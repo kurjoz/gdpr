@@ -1,6 +1,6 @@
-@import "includes/normalize";
+@import "bootstrap";
 @import "includes/variables";
-@import "node_modules/bootstrap/scss/bootstrap-grid";
+@import "includes/normalize";
 
 //Base styles:
 @import "includes/mixins";
