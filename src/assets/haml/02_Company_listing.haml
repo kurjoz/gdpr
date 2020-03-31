@@ -20,10 +20,14 @@
                   %button.btn.btn-sm.btn-outline
                     %i.icon.icon__search
               .box-panel.box-panel_tabular
-                %table.table
-                  %thead
+                .table.type_data
+                  .thead
                     @@include('./partials/data-table/_data-table_row_hd.html')
-                  %tbody
+                  .tbody
+                    @@include('./partials/data-table/_data-table_row.html')
+                    @@include('./partials/data-table/_data-table_row_l.html')
+                    @@include('./partials/data-table/_data-table_row.html')
+                    @@include('./partials/data-table/_data-table_row.html')
                     @@include('./partials/data-table/_data-table_row.html')
                     @@include('./partials/data-table/_data-table_row.html')
                     @@include('./partials/data-table/_data-table_row.html')

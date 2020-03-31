@@ -85,14 +85,14 @@ function clean() {
 
 //partials
 function partials () {
-  return gulp.src('./src/partials/**/*.haml')
+  return gulp.src('./src/assets/haml/partials/**/*.haml')
     .pipe(haml())
     .pipe(gulp.dest(function(file) {return file.base;}))
 
 }
 //haml
 function html () {
-  return gulp.src('./src/*.haml')
+  return gulp.src('./src/assets/haml/*.haml')
     .pipe(haml())
     .pipe(fileinclude({
         prefix: '@@',
@@ -157,8 +157,8 @@ function watchFiles() {
       //"./_layouts/**/*",
       //"./_pages/**/*",
       //"./_posts/**/*",
-      "./src/*.haml",
-      "./src/partials/**/*.haml"
+      "./src/assets/haml/*.haml",
+      "./src/assets/haml/partials/**/*.haml"
     ],
     gulp.series(partials, html, browserSyncReload)
   );

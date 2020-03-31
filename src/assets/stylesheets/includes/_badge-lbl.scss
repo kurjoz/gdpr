@@ -1,11 +1,20 @@
-.company-avatar {
-  margin-right: 16px;
+.badge-lbl {
+  position: relative;
+}
+.badge-lbl__icon {
   display: inline-block;
+  position: absolute;
   width: 32px;
   height: 32px;
   line-height: 32px;
+  left: 0;
+  top: 50%;
+  margin-top: -16px;
   text-align: center;
   color: $white;
   background-color: $primary-dimmed;
   border-radius: 50%;
+}
+.badge-lbl__text {
+  margin-left: 44px;
 }

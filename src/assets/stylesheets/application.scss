@@ -10,7 +10,7 @@
 
 //Helpers:
 @import "includes/_generated-imagehelper"; // Dev Only!  Asset to polyfill ruby-sass image-url
-@import "includes/helpers"; 
+@import "includes/helpers";
 
 //components:
 //@import "includes/loader";
@@ -24,14 +24,14 @@
 //@import "includes/toggle";
 //@import "includes/radio-cards.scss";
 @import "includes/icon.scss";
-@import "includes/sidebar-nav.scss";
+@import "includes/sidebar-nav";
 //@import "includes/datepicker.scss";
 //@import "includes/contact-list.scss";
 //@import "includes/file-upload.scss";
-@import "includes/paginator.scss";
+@import "includes/paginator";
 //@import "includes/progress-bar.scss";
 //@import "includes/tooltip";
-@import "includes/avatar.scss";
-@import "includes/fields-grp.scss";
-@import "includes/header.scss";
-@import "includes/footer.scss";
+@import "includes/_badge-lbl";
+@import "includes/fields-grp";
+@import "includes/header";
+@import "includes/footer";
