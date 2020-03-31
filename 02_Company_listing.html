@@ -4,7 +4,7 @@
 <head>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;display=swap" rel="stylesheet" />
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="stylesheet" type="text/css" href="assets/stylesheets/application.min.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/stylesheets/application.min.css" />
 </head>
 
 </html>
@@ -49,109 +49,235 @@
               </div>
             </div>
             <div class="box-panel box-panel_tabular">
-              <table class="table">
-                <thead>
-                  <tr class="table-row">
-                    <th class="table-cell-hd">Company Name</th>
-                    <th class="table-cell-hd">
-                      <span class="table-cell-hd__sortable __sort_none">City</span>
-                    </th>
-                    <th class="table-cell-hd">
-                      <span class="table-cell-hd__sortable __sort_none">Users</span>
-                    </th>
-                    <th class="table-cell-hd">
-                      <span class="table-cell-hd__sortable __sort_none">Divisions</span>
-                    <th class="table-cell-hd"></th>
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr class="tr">
-                    <td class="table-cell">
-                      <span class="company-avatar">B</span>BMW AG
-                    </td>
-                    <td class="table-cell">Munich</td>
-                    <td class="table-cell">26</td>
-                    <td class="table-cell">3</td>
-                    <td class="table-cell table-cell_actions">
-                      <div class="table-cell__actions-container">
-                        <button class="btn btn-link">Manage Users</button>
-                        <button class="btn btn-link">Edit Company</button>
+              <div class="table type_data">
+                <div class="thead">
+                  <div class="table__row">
+                    <div class="table__cell table__cell_hd">
+                      <span class="table__cell-sort">Company Name 1</span>
+                    </div>
+                    <div class="table__cell table__cell_hd">
+                      <span class="table__cell-sort">City</span>
+                    </div>
+                    <div class="table__cell table__cell_hd">
+                      <span class="table__cell-sort table__cell-sort_asc">Users</span>
+                    </div>
+                    <div class="table__cell table__cell_hd">
+                      <span class="table__cell-sort table__cell-sort_desc">Divisions</span>
+                    </div>
+                    <div class="table__cell table__cell_hd">
+                      <span class="table__cell-sort">Col 1</span>
+                    </div>
+                    <div class="table__cell table__cell_hd">
+                      <span class="table__cell-sort">Col 2</span>
+                    </div>
+                    <div class="table__cell table__cell_hd">
+                      <span class="table__cell-sort">Col 3</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="tbody">
+                  <div class="table__row">
+                    <div class="table__cell">
+                      <span class="badge-lbl">
+                        <span class="badge-lbl__icon">B</span>
+                        <span class="badge-lbl__text">BMW AG</span>
+                      </span>
+                    </div>
+                    <div class="table__cell">Munich</div>
+                    <div class="table__cell">26</div>
+                    <div class="table__cell">3</div>
+                    <div class="table__cell">Caribou</div>
+                    <div class="table__cell">10,000,000</div>
+                    <div class="table__cell">Orange</div>
+                    <div class="table__actions">
+                      <div class="table__actions-container">
+                        <a href="#" class="table__action btn btn-link">Manage Users</a>
+                        <a href="#" class="table__action btn btn-link">Edit Company</a>
                       </div>
-                    </td>
-                  </tr>
-                  <tr class="tr">
-                    <td class="table-cell">
-                      <span class="company-avatar">B</span>BMW AG
-                    </td>
-                    <td class="table-cell">Munich</td>
-                    <td class="table-cell">26</td>
-                    <td class="table-cell">3</td>
-                    <td class="table-cell table-cell_actions">
-                      <div class="table-cell__actions-container">
-                        <button class="btn btn-link">Manage Users</button>
-                        <button class="btn btn-link">Edit Company</button>
+                    </div>
+                  </div>
+                  <div class="table__row">
+                    <div class="table__cell">
+                      <span class="badge-lbl">
+                        <span class="badge-lbl__icon">L</span>
+                        <span class="badge-lbl__text">Lorem ipsum</span>
+                      </span>
+                    </div>
+                    <div class="table__cell">Lorem ipsum dolor sit amet</div>
+                    <div class="table__cell">10,000</div>
+                    <div class="table__cell">1000</div>
+                    <div class="table__cell">Lorem ipsum dolor sit amet</div>
+                    <div class="table__cell">200,000,000,000</div>
+                    <div class="table__cell">Suspendisse sit amet</div>
+                    <div class="table__actions">
+                      <div class="table__actions-container">
+                        <a href="#" class="table__action btn btn-link">Manage Users</a>
+                        <a href="#" class="table__action btn btn-link">Edit Company</a>
                       </div>
-                    </td>
-                  </tr>
-                  <tr class="tr">
-                    <td class="table-cell">
-                      <span class="company-avatar">B</span>BMW AG
-                    </td>
-                    <td class="table-cell">Munich</td>
-                    <td class="table-cell">26</td>
-                    <td class="table-cell">3</td>
-                    <td class="table-cell table-cell_actions">
-                      <div class="table-cell__actions-container">
-                        <button class="btn btn-link">Manage Users</button>
-                        <button class="btn btn-link">Edit Company</button>
+                    </div>
+                  </div>
+                  <div class="table__row">
+                    <div class="table__cell">
+                      <span class="badge-lbl">
+                        <span class="badge-lbl__icon">B</span>
+                        <span class="badge-lbl__text">BMW AG</span>
+                      </span>
+                    </div>
+                    <div class="table__cell">Munich</div>
+                    <div class="table__cell">26</div>
+                    <div class="table__cell">3</div>
+                    <div class="table__cell">Caribou</div>
+                    <div class="table__cell">10,000,000</div>
+                    <div class="table__cell">Orange</div>
+                    <div class="table__actions">
+                      <div class="table__actions-container">
+                        <a href="#" class="table__action btn btn-link">Manage Users</a>
+                        <a href="#" class="table__action btn btn-link">Edit Company</a>
                       </div>
-                    </td>
-                  </tr>
-                  <tr class="tr">
-                    <td class="table-cell">
-                      <span class="company-avatar">B</span>BMW AG
-                    </td>
-                    <td class="table-cell">Munich</td>
-                    <td class="table-cell">26</td>
-                    <td class="table-cell">3</td>
-                    <td class="table-cell table-cell_actions">
-                      <div class="table-cell__actions-container">
-                        <button class="btn btn-link">Manage Users</button>
-                        <button class="btn btn-link">Edit Company</button>
+                    </div>
+                  </div>
+                  <div class="table__row">
+                    <div class="table__cell">
+                      <span class="badge-lbl">
+                        <span class="badge-lbl__icon">B</span>
+                        <span class="badge-lbl__text">BMW AG</span>
+                      </span>
+                    </div>
+                    <div class="table__cell">Munich</div>
+                    <div class="table__cell">26</div>
+                    <div class="table__cell">3</div>
+                    <div class="table__cell">Caribou</div>
+                    <div class="table__cell">10,000,000</div>
+                    <div class="table__cell">Orange</div>
+                    <div class="table__actions">
+                      <div class="table__actions-container">
+                        <a href="#" class="table__action btn btn-link">Manage Users</a>
+                        <a href="#" class="table__action btn btn-link">Edit Company</a>
                       </div>
-                    </td>
-                  </tr>
-                  <tr class="tr">
-                    <td class="table-cell">
-                      <span class="company-avatar">B</span>BMW AG
-                    </td>
-                    <td class="table-cell">Munich</td>
-                    <td class="table-cell">26</td>
-                    <td class="table-cell">3</td>
-                    <td class="table-cell table-cell_actions">
-                      <div class="table-cell__actions-container">
-                        <button class="btn btn-link">Manage Users</button>
-                        <button class="btn btn-link">Edit Company</button>
+                    </div>
+                  </div>
+                  <div class="table__row">
+                    <div class="table__cell">
+                      <span class="badge-lbl">
+                        <span class="badge-lbl__icon">B</span>
+                        <span class="badge-lbl__text">BMW AG</span>
+                      </span>
+                    </div>
+                    <div class="table__cell">Munich</div>
+                    <div class="table__cell">26</div>
+                    <div class="table__cell">3</div>
+                    <div class="table__cell">Caribou</div>
+                    <div class="table__cell">10,000,000</div>
+                    <div class="table__cell">Orange</div>
+                    <div class="table__actions">
+                      <div class="table__actions-container">
+                        <a href="#" class="table__action btn btn-link">Manage Users</a>
+                        <a href="#" class="table__action btn btn-link">Edit Company</a>
                       </div>
-                    </td>
-                  </tr>
-                  <tr class="tr">
-                    <td class="table-cell">
-                      <span class="company-avatar">B</span>BMW AG
-                    </td>
-                    <td class="table-cell">Munich</td>
-                    <td class="table-cell">26</td>
-                    <td class="table-cell">3</td>
-                    <td class="table-cell table-cell_actions">
-                      <div class="table-cell__actions-container">
-                        <button class="btn btn-link">Manage Users</button>
-                        <button class="btn btn-link">Edit Company</button>
+                    </div>
+                  </div>
+                  <div class="table__row">
+                    <div class="table__cell">
+                      <span class="badge-lbl">
+                        <span class="badge-lbl__icon">B</span>
+                        <span class="badge-lbl__text">BMW AG</span>
+                      </span>
+                    </div>
+                    <div class="table__cell">Munich</div>
+                    <div class="table__cell">26</div>
+                    <div class="table__cell">3</div>
+                    <div class="table__cell">Caribou</div>
+                    <div class="table__cell">10,000,000</div>
+                    <div class="table__cell">Orange</div>
+                    <div class="table__actions">
+                      <div class="table__actions-container">
+                        <a href="#" class="table__action btn btn-link">Manage Users</a>
+                        <a href="#" class="table__action btn btn-link">Edit Company</a>
                       </div>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+                    </div>
+                  </div>
+                  <div class="table__row">
+                    <div class="table__cell">
+                      <span class="badge-lbl">
+                        <span class="badge-lbl__icon">B</span>
+                        <span class="badge-lbl__text">BMW AG</span>
+                      </span>
+                    </div>
+                    <div class="table__cell">Munich</div>
+                    <div class="table__cell">26</div>
+                    <div class="table__cell">3</div>
+                    <div class="table__cell">Caribou</div>
+                    <div class="table__cell">10,000,000</div>
+                    <div class="table__cell">Orange</div>
+                    <div class="table__actions">
+                      <div class="table__actions-container">
+                        <a href="#" class="table__action btn btn-link">Manage Users</a>
+                        <a href="#" class="table__action btn btn-link">Edit Company</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="table__row">
+                    <div class="table__cell">
+                      <span class="badge-lbl">
+                        <span class="badge-lbl__icon">B</span>
+                        <span class="badge-lbl__text">BMW AG</span>
+                      </span>
+                    </div>
+                    <div class="table__cell">Munich</div>
+                    <div class="table__cell">26</div>
+                    <div class="table__cell">3</div>
+                    <div class="table__cell">Caribou</div>
+                    <div class="table__cell">10,000,000</div>
+                    <div class="table__cell">Orange</div>
+                    <div class="table__actions">
+                      <div class="table__actions-container">
+                        <a href="#" class="table__action btn btn-link">Manage Users</a>
+                        <a href="#" class="table__action btn btn-link">Edit Company</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="table__row">
+                    <div class="table__cell">
+                      <span class="badge-lbl">
+                        <span class="badge-lbl__icon">B</span>
+                        <span class="badge-lbl__text">BMW AG</span>
+                      </span>
+                    </div>
+                    <div class="table__cell">Munich</div>
+                    <div class="table__cell">26</div>
+                    <div class="table__cell">3</div>
+                    <div class="table__cell">Caribou</div>
+                    <div class="table__cell">10,000,000</div>
+                    <div class="table__cell">Orange</div>
+                    <div class="table__actions">
+                      <div class="table__actions-container">
+                        <a href="#" class="table__action btn btn-link">Manage Users</a>
+                        <a href="#" class="table__action btn btn-link">Edit Company</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="table__row">
+                    <div class="table__cell">
+                      <span class="badge-lbl">
+                        <span class="badge-lbl__icon">B</span>
+                        <span class="badge-lbl__text">BMW AG</span>
+                      </span>
+                    </div>
+                    <div class="table__cell">Munich</div>
+                    <div class="table__cell">26</div>
+                    <div class="table__cell">3</div>
+                    <div class="table__cell">Caribou</div>
+                    <div class="table__cell">10,000,000</div>
+                    <div class="table__cell">Orange</div>
+                    <div class="table__actions">
+                      <div class="table__actions-container">
+                        <a href="#" class="table__action btn btn-link">Manage Users</a>
+                        <a href="#" class="table__action btn btn-link">Edit Company</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="paginator">
               <span class="paginator__item __prev">
